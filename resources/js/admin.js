@@ -29,6 +29,7 @@ export function initAdmin(socket) {
       }
 
     function generateMarkup(orders) {
+        console.log(orders)
         return orders.map(order => {
             return `
                 <tr>
